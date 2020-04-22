@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="our_services"
+            android:title="Our Services" />
+        <item
+            android:id="csl"
+            android:title="Call StandMark Ltd." />
+        <item
+            android:id="my_profile"
+            android:title="@string/my_profile" />
+        <item
+            android:id="logout"
+            android:title="@string/logout" />
+
+    </group>
+</menu>
